@@ -1,0 +1,8 @@
+*.csv
+*.npy
+*.png
+.ipynb_checkpoints
+!GBcommments.csv
+!GBvideos.csv
+!UScommments.csv
+!USvideos.csv
