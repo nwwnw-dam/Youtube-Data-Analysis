@@ -14,8 +14,14 @@
 * Category prediction using video title and tags Part 1/Part 2.ipynb
     * Similar preprocessing as comments except no stemming
     * Best model is Naive Bayes with 71.0%
+* Category prediction with Ensemble Model.ipyb
+    * We find that emsembling the top 9 models in the previous 2 notebooks gave an improved accuracy of 73.8%
 * Analyze Relationship between Like_Dislike_View_Ratio and Sentiment.ipynb
     * We find a weak correlation between like/dislike-ratio to sentiment of text
+* Word Map.ipynb
+    * We the most important/relevant words for each category in the form of a word cloud
+    * We analyze the amount of profanity in the videos
+### 
 ### Git Workflow
 * Fork this master repo to your own account
 * Git clone from your own account repo
@@ -25,3 +31,4 @@
    * Pull from master repo, resolve the conflicts
    * Push to your account repo
    * Submit pull request
+* Even if you do not PR, you should still pull from master repo regularly to get updates from others
