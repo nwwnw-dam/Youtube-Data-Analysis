@@ -2,10 +2,6 @@
 *.npy
 *.png
 .ipynb_checkpoints
-!GBcomments.csv
-!GBvideos.csv
-!UScomments.csv
-!USvideos.csv
 
 // data_scraper
 api_key.txt
