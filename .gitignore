@@ -2,7 +2,7 @@
 *.npy
 *.png
 .ipynb_checkpoints
+glove.twitter.27B.200d.txt
 
 // data_scraper
 api_key.txt
-kaggle/
