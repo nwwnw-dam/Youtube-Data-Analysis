@@ -6,6 +6,8 @@
 !GBvideos.csv
 !UScommments.csv
 !USvideos.csv
+!videos.csv
+!comments.csv
 
 // data_scraper
 api_key.txt
