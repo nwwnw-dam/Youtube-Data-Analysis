@@ -39,9 +39,9 @@ It is recommended to execute the notebooks in the following order:
     * We find that ensembling the top 9 models in the previous 2 notebooks gave an improved accuracy of 73.8%
 * 6 - Mining Association Rules for Tags.ipynb
     * We implement FP-Tree from scratch
-    * We find all maximal frequent itemsets of support count >= 31 (support of 0.01)
-    * We notice that tags are "top-heavy": If you permutate all possible rules of a maximal frequent set for all maximal frequent sets, the worst confidence of any rule is 99.4%
-    * Hence, we can simply analyze the maximal frequent itemsets. This is because for each item in the maximal frequent itemset, it predicts the rest of the items in the maximal frequent itemset with at least 99.4% confidence
+    * We find all maximal frequent itemsets of support count >= 16 (support of 0.005)
+    * We notice that tags are "top-heavy": If you permutate all possible rules of a maximal frequent set for all maximal frequent sets, the worst confidence of any rule is 99.1%
+    * Hence, we can simply analyze the maximal frequent itemsets. This is because for each item in the maximal frequent itemset, it predicts the rest of the items in the maximal frequent itemset with at least 99.1% confidence
 * 7 - Analyze Relationship between Like_Dislike_View_Ratio and Sentiment.ipynb
     * We find a weak correlation between like/dislike-ratio to sentiment of text
 * 8 - Word Map.ipynb
