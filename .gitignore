@@ -1,6 +1,7 @@
 *.csv
 *.npy
 *.png
+*.json
 .ipynb_checkpoints
 output/
 glove.twitter.27B.200d.txt
