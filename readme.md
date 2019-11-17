@@ -34,6 +34,7 @@ It is recommended to execute the notebooks in the following order:
 * 3 - Category Prediction using Video Titles and Tags Part 1/Part 2.ipynb
     * Similar preprocessing as comments
     * Best model is Naive Bayes with 71.0%
+    * Accuracy Visualization.ipynb contains the visualization of the accuracies
 * 4 - Category prediction with Ensemble Modelling.ipyb
     * We find that ensembling the top 9 models in the previous 2 notebooks gave an improved accuracy of 73.8%
 * 5 - Mining Association Rules for Tags.ipynb
@@ -41,9 +42,9 @@ It is recommended to execute the notebooks in the following order:
     * We find all maximal frequent itemsets of support count >= 16 (support of 0.005)
     * We notice that tags are "top-heavy": If you permutate all possible rules of a maximal frequent set for all maximal frequent sets, the worst confidence of any rule is 99.1%
     * Hence, we can simply analyze the maximal frequent itemsets. This is because for each item in the maximal frequent itemset, it predicts the rest of the items in the maximal frequent itemset with at least 99.1% confidence
-* 7 - Analyze Relationship between Like or Dislike Ratio and Sentiment.ipynb
+* 6 - Analyze Relationship between Like or Dislike Ratio and Sentiment.ipynb
     * We find a weak correlation between like/dislike-ratio to sentiment of text
-* 8 - Word Map Part 1/Part 2.ipynb
+* 7 - Word Map Part 1/Part 2.ipynb
     * We find the most important/relevant words for each category in the form of a word cloud
     * We analyze the amount of profanity in the videos
 ### Git Workflow
